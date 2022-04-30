@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>
+        Micro Controllori
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mhw3.css">
+    <script src="script.js" defer="true"></script>
+</head>
+<body>
+    
+    <header>
+        <div id ="overlay"></div>
+        <nav>
+            <div >
+               <a href="#Title">MicroController</a>
+            </div>
+    
+            <div id="Link">
+                <a href="#sez1">Uno</a>
+                <a href="#sez2">Nano</a>
+                <a href="#sez3">Esp8266</a>
+                <a href="#sez4">Esp32</a>
+                <a href="#sez5">Esp32-Cam</a>
+            </div>
+    
+        </nav>
+        <div>
+            <h1 id="Title">My Top 5</h1>
+        </div>
+    </header>
+    <section id="Creatore">
+        <img id="usr" src="img.webp" alt="img not found">
+        <p>
+            <strong>Marco Finocchiaro</strong>
+            <br>
+            <em>Ultima modifica:28/03/2022</em>
+        </p>
+        
+    </section>
+    <div id="left" class="lateral">
+        Spotify Podcast:
+        
+    
+    </div>
+    <div id="right" class="lateral">
+      Google Books:
+    </div>
+    <article>
+        <section id="sez1">
+            <div>
+                <h1> Arduino Uno</h1>
+                <h1><em>5)</em></h1>
+            </div>
+            <div class="Img"></div>
+            <div class="testo"> 
+                <p>
+                L'<a href="https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf">Arduino Uno</a> e' un ottimo micro controllore per i novizi,
+                possiede molti pin differenziati tra digitali ed analogici 
+                ,uscite di voltaggio sia da 5v che da 3.3v
+                ,oltre che interfaccia usb type B per l'inserimento del codice in memoria flash,
+                purtroppo non e' molto utilizzabile in applicazioni complesse poiche' ha poca memoria a disposizione ,
+                ed e' di elevate dimensioni rispetto ai successivi modelli.
+                
+                </p>
+            </div>
+            <div class="Commento">Ottimo per iniziare.</div>
+            
+        </section>
+        <section id="sez2">
+            <div>
+                <h1>Arduino Nano</h1>
+                <h1><em>4)</em></h1>
+            </div>
+            <div class="Img"></div>
+            <div class="testo">
+                <p>L'<a href="https://www.farnell.com/datasheets/1682238.pdf">Arduino Nano</a> si differenzia del suo genitore per dimensioni e numero di pin ,
+                avendo una minor dimensione viene piu' semplice utilizzarlo per la creazione di oggetti intelligenti,in oltre e' dotato di 
+                un interfaccia type b mini (molto piu' confortevole della porta usb type b standard).
+                </p>
+            </div>
+            <div class="Commento">Ridotte dimensioni.</div>
+            
+        </section>
+        <section id="sez3">
+            <div>
+                <h1>Nodemcu Esp8266</h1>
+                <h1><em>3)</em></h1>
+            </div>
+            <div class="Img"></div>
+            <div class="testo">
+                <p>L'<a href="https://components101.com/sites/default/files/component_datasheet/ESP8266-NodeMCU-Datasheet.pdf">Esp8266</a>,pur essendo anch'esso un micro controllore Arduino-Based, si differenzia dai precedenti poiche' ha la possibilita' di utilizzare la Connessione wireless e quindi non richiede 
+                di ulteriori dispositivi per la connessione ad internet ,diventando uno dei piu' famosi micro controllori per gli sviluppatori "casalinghi" di 
+                dipositivi IOT.Possiede un interfaccia micro usb , molto comune al giorno d'oggi, purtroppo manca di un pin di uscita per la tensione a 5v.
+                </p>
+            </div>
+            <div class="Commento"><em>Connessione internet e memoria.</em></div>
+            
+        </section>
+        <section id="sez4">
+            <div>
+                <h1> Esp32-Wroom</h1>
+                <h1><em>2)</em></h1>
+            </div>
+            <div class="Img"></div>
+            <div class="testo">
+                <p>L' <a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf">Esp32-Wroom</a> puo' essere considerato il discendente del esp8266 ,infatti, possiede nativamente l'interfaccia per la connessione wi-fi ,in aggiunta, supporta il bluetooth nativamente oltre
+                ad avere un cpu interna piu' performante del suo predecessore,anch'esso possiede un interfaccia micro usb per la scrittura della flash.
+                </p>
+            </div>
+            <div class="Commento">Ottimo</div>
+            
+        </section>
+        <section id="sez5">
+            <div>
+                <h1> Esp32-Cam</h1>
+                <h1><em>1)</em></h1>
+            </div>
+            <div class="Img" id="i5"></div>
+            <div class="testo">
+                <p>
+                L'<a href="https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf">Esp32-Cam</a> si differenzia da molti suoi fratelli della famiglia Esp32 poiche' nella sua scheda abbiamo tantissime interfacce hardware built-in
+                ,infatti, ha una porta per la lettura di scheda sd , un ingresso per un antenna esterna e come dice anche il nome, un interfaccia per la connesione di 
+                una camera ,senza contare che tra tutti gli altri micro controllori Arduino-Based citati in precedenza e' il piu' piccolo per dimensioni,a causa di cio', dispone di meno pin general purpose, ma e' anche il piu' performante
+                poiche' l'Esp32-Cam e' basato su esp32 Ai-thinker che avendo due core supporta perfino i thread.
+                L'unica pecca e' data dalla mancanza di una connessione nativa tramite usb che comporta l'acquisto di un ulteriore dispositivo per fare da tramite. 
+                </p>
+            </div>
+            <div class="Commento">Il migliore</div>
+            
+        </section>
+
+    </article>
+
+    <footer>
+        <p>Alunno:Marco Finocchiaro</p>
+
+        <p>Matricola: 1000001718</p>
+    </footer>
+
+</body>
+
+</html>            
+
+   
