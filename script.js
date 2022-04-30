@@ -106,16 +106,18 @@
     {
         sound.src=canzoni[event.currentTarget.dataset.num];
         sound.volume=0.3;
-        if(isplaying)
-        {sound.pause()
+        if(isplaying&& number==event.currentTarget.dataset.num)
+        {sound.pause();
+            number=-1;
          isplaying=false;
         }
         else
         {sound.play();
+            number=event.currentTarget.dataset.num;
         isplaying=true;}
         
     }
-
+let number=-1;
 let isplaying=false;
 let sound = new Audio();
 canzoni={};
